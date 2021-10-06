@@ -1,0 +1,6 @@
+/coverage
+dist
+/mysql-db-data
+node_modules
+.env
+
