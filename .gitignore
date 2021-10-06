@@ -117,3 +117,5 @@ mysql-db-data
 # report created by jest-html-reporter module
 test-report.html
 
+test/scripts/log.txt
+
