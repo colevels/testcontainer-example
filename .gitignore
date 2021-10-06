@@ -103,22 +103,16 @@ dist
 # TernJS port file
 .tern-port
 
-.idea/
 
 node_modules
-dist
 mysql-db-data
-coverage
 # Webstorm config files
 .idea/
 
 .npmrc
-.env
 
 
 .DS_store
-
-*.log
 
 # report created by jest-html-reporter module
 test-report.html
