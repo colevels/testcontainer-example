@@ -7,6 +7,7 @@ const init = async () => {
   const mysql = new MySQLHelper();
   const usersRepo = new UsersRepo(mysql);
   const users = await usersRepo.findAll();
+  console.log('google')
   console.debug(users);
 };
 
