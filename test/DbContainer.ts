@@ -16,6 +16,7 @@ export default class DbContainer {
     const DBCreationScript = "/usr/src/scripts/initTestDB.sh";
 
     console.debug("Starting test container");
+    console.log('test')
     const resourcesPath = join(__dirname, "..", "resources", "scripts");
     const testScriptsPath = join(__dirname, "scripts");
     this.mySQLContainer = await new GenericContainer("mysql")
