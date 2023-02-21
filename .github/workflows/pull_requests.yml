@@ -22,6 +22,8 @@ jobs:
           node-version: "14.x"
       - name: Install Node.js dependencies
         uses: bahmutov/npm-install@v1
+        with:
+          useLockFile: false
       - name: Run tslint
         run: yarn tslint
 
@@ -38,6 +40,8 @@ jobs:
           node-version: "14.x"
       - name: Install Node.js dependencies
         uses: bahmutov/npm-install@v1
+        with:
+          useLockFile: false
       - name: Run build
         run: yarn build-ts
   tests:
@@ -62,5 +66,7 @@ jobs:
           node-version: "14.x"
       - name: Install Node.js dependencies
         uses: bahmutov/npm-install@v1
+        with:
+          useLockFile: false
       - name: Run tests
         run: yarn test
